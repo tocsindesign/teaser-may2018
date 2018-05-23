@@ -1,3 +1,35 @@
+@font-face {
+  src: url("fonts/Aleo/Aleo-Regular.eot");
+  font-family: Aleo;
+  src: url("fonts/Aleo/Aleo-Regular.eot?#Aleo") format("embedded-opentype"), url("fonts/Aleo/Aleo-Regular.woff") format("woff"), url("fonts/Aleo/Aleo-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  src: url("fonts/Aleo/Aleo-RegularItalic.eot");
+  font-family: Aleo;
+  src: url("fonts/Aleo/Aleo-RegularItalic.eot?#Aleo") format("embedded-opentype"), url("fonts/Aleo/Aleo-RegularItalic.woff") format("woff"), url("fonts/Aleo/Aleo-RegularItalic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  src: url("fonts/Aleo/Aleo-Bold.eot");
+  font-family: Aleo;
+  src: url("fonts/Aleo/Aleo-Bold.eot?#Aleo") format("embedded-opentype"), url("fonts/Aleo/Aleo-Bold.woff") format("woff"), url("fonts/Aleo/Aleo-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  src: url("fonts/Aleo/Aleo-BoldItalic.eot");
+  font-family: Aleo;
+  src: url("fonts/Aleo/Aleo-BoldItalic.eot?#Aleo") format("embedded-opentype"), url("fonts/Aleo/Aleo-BoldItalic.woff") format("woff"), url("fonts/Aleo/Aleo-BoldItalic.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+}
+
 body {
   box-sizing: border-box;
   padding: 0;
@@ -68,12 +100,14 @@ header span {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d35f5f', endColorstr='#bc5c5c',GradientType=0 );
   display: grid;
   place-items: center;
+  padding-top: 5vw;
 }
 
 .mail {
   background: #bc5c5c;
   display: grid;
   place-items: center;
+  padding-bottom: 5vw;
 }
 
 .mail span {
@@ -91,7 +125,7 @@ header span {
 
 footer {
   border: 2px solid #666;
-  margin: 6vw 0vw 5vw 0vw;
+  margin: 10vw 0vw 5vw 0vw;
   display: grid;
   padding: 2vw;
   grid-gap: 2vw;
@@ -164,11 +198,15 @@ footer .dsgvo {
     padding: 3px;
     margin: 0vw 10vw 0vw 10vw;
   }
+  .logo {
+    padding-top: 0;
+  }
   .mail {
     margin-bottom: 0;
     background: #fff;
     grid-template-columns: auto auto;
     grid-template-rows: 100%;
+    padding-bottom: 0;
   }
   .mail span {
     color: #000;

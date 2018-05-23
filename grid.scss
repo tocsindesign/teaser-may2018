@@ -1,3 +1,31 @@
+// basic function for font embedding
+@mixin font($font, $variant, $weight, $style) {
+    src: url("fonts/#{$font}/#{$font}-#{$variant}.eot");
+    font-family: $font;
+    src:
+      url("fonts/#{$font}/#{$font}-#{$variant}.eot?##{$font}") format("embedded-opentype"),
+      url("fonts/#{$font}/#{$font}-#{$variant}.woff") format("woff"),
+      url("fonts/#{$font}/#{$font}-#{$variant}.ttf") format("truetype");
+    font-weight: $weight;
+    font-style: $style;
+}
+
+@font-face {
+    @include font(Aleo, Regular, normal, normal);
+}
+
+@font-face {
+    @include font(Aleo, RegularItalic, normal, italic);
+}
+
+@font-face {
+    @include font(Aleo, Bold, bold, normal);
+}
+
+@font-face {
+    @include font(Aleo, BoldItalic, bold, italic);
+}
+
 body {
     box-sizing: border-box;
     padding: 0;
@@ -69,12 +97,14 @@ header {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d35f5f', endColorstr='#bc5c5c',GradientType=0 );
     display: grid;
     place-items: center;
+    padding-top: 5vw;
 }
 
 .mail {
     background: #bc5c5c;
     display: grid;
     place-items: center;
+    padding-bottom: 5vw;
     //margin-bottom: 4vw;
 
     span {
@@ -93,7 +123,7 @@ header {
 
 footer {
     border: 2px solid #666;
-    margin: 6vw 0vw 5vw 0vw;
+    margin: 10vw 0vw 5vw 0vw;
     display: grid;
 
     //TODO: less padding on bigger resolutions
@@ -152,7 +182,7 @@ footer {
         margin: 0;
         
         .border {
-            border:0;
+            border: 0;
         }
     }
 
@@ -181,11 +211,16 @@ footer {
         margin: 0vw 10vw 0vw 10vw;
     }
 
+    .logo {
+        padding-top: 0;
+    }
+
     .mail {
         margin-bottom: 0;
         background: #fff;
         grid-template-columns: auto auto;
         grid-template-rows: 100%;
+        padding-bottom: 0;
 
         span {
             color: #000;
