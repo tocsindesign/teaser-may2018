@@ -1,0 +1,64 @@
+body {
+  font-family: Aleo;
+  background: #4d4d4d;
+  margin: 0;
+  padding: 0;
+}
+
+.border {
+  border: 2px solid #4d4d4d;
+  margin: 0px;
+  padding: 2vw;
+}
+
+.dsgvo-message, footer {
+  /* move to static px padding? */
+  /* padding: 0.3vw; */
+  padding: 2px;
+  /* was: 3 */
+  margin: 2vw;
+  color: #fff;
+  text-align: center;
+}
+
+.dsgvo-message {
+  background: #666;
+}
+
+.dsgvo-message a {
+  padding: 1vw 2vw;
+}
+
+.dsgvo-message a.disagree {
+  background: #fff;
+}
+
+.dsgvo-message a.info {
+  border: 1px solid #fff;
+}
+
+footer.nongrid {
+  border: 2px solid #666;
+  padding: 2vw;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+footer.grid {
+  background: red;
+  display: grid;
+}
+
+.logo {
+  background: #bc5c5c;
+  padding: 4vw;
+  text-align: center;
+}
+
+.mail {
+  background: #bc5c5c;
+  padding: 4vw;
+  text-align: center;
+  color: #fff;
+}
