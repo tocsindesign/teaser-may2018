@@ -26,12 +26,15 @@
     @include font(Aleo, BoldItalic, bold, italic);
 }
 
+$font-size: 4vw;
+
 body {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
     background: #4d4d4d;
     font-family: "Aleo";
+    //font-size: $font-size;
 }
 
 .container {
@@ -105,7 +108,6 @@ header {
     display: grid;
     place-items: center;
     padding-bottom: 5vw;
-    //margin-bottom: 4vw;
 
     span {
         color: #fff;
@@ -144,7 +146,30 @@ footer {
     }
 }
 
-@media(min-width: 700px) {
+@media (min-width: 450px) {
+    $font-size: $font-size - 0.7;
+
+    body {
+        //font-size: $font-size;
+    }
+}
+
+@media (min-width: 600px) {
+    $font-size: $font-size - 1.6;
+
+    body {
+        //font-size: $font-size;
+    }
+}
+
+@media (min-width: 700px) {
+
+    $font-size: $font-size - 2;
+
+    body {
+        //font-size: $font-size;
+    }
+
     .mail {
 
        span {
@@ -165,7 +190,14 @@ footer {
     }
 }
 
-@media(min-width: 1000px) {
+@media (min-width: 1000px) {
+
+    $font-size: $font-size - 2.3;
+
+    body {
+        //font-size: $font-size;
+    }
+
     .container {
         grid-template-columns: auto auto;
         grid-template-rows: auto 25% auto;
@@ -183,6 +215,9 @@ footer {
         
         .border {
             border: 0;
+            margin-left: 0;
+            margin-right: 0;
+            border-bottom: 2px solid #4d4d4d;
         }
     }
 
@@ -206,8 +241,6 @@ footer {
         border: 2px solid #fff;
         place-items: stretch;
         padding: 3px;
-        //width: 60%;
-        //place-self: center;
         margin: 0vw 10vw 0vw 10vw;
     }
 
@@ -234,5 +267,32 @@ footer {
             height: 3vw;
             line-height: 3vw;
         }
+    }
+}
+
+@media (min-width: 1200px) {
+
+    $font-size: $font-size - 2.5;
+    
+    body {
+        //font-size: $font-size;
+    }
+}
+
+@media (min-width: 1400px) {
+
+    $font-size: $font-size - 2.7;
+    
+    body {
+        //font-size: $font-size;
+    }
+}
+
+@media (min-width: 1500px) {
+
+    $font-size: $font-size - 3;
+    
+    body {
+        //font-size: $font-size;
     }
 }
