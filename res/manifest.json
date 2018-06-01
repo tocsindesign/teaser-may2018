@@ -1,0 +1,25 @@
+{
+  "short_name": "tocsin",
+  "name": "tocsin - Portfolio von Stephan Fischer",
+  "icons": [
+    {
+      "src": "/res/img/favicon64.png",
+      "type": "image/png",
+      "sizes": "48x48"
+    },
+    {
+      "src": "/res/img/favicon128.png",
+      "type": "image/png",
+      "sizes": "96x96"
+    },
+    {
+      "src": "/res/img/favicon256.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#d35f5f",
+  "background_color": "#4d4d4d"
+}
