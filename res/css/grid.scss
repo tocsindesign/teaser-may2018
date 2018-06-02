@@ -93,12 +93,23 @@ header {
 }
 
 .logo {
-    // old gradient: start with #a90329, stop at #bc5c5c
+    // first gradient: start with #a90329, stop at #bc5c5c
+
+    // changed #bc5c5c to #d35f5f, see: https://kb.tocsin.de/project/6/task/453
     background: #d35f5f;
-    background: -moz-linear-gradient(top, #d35f5f 0%, #bc5c5c 100%);
-    background: -webkit-linear-gradient(top, #d35f5f 0%,#bc5c5c 100%);
-    background: linear-gradient(to bottom, #d35f5f 0%,#bc5c5c 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d35f5f', endColorstr='#bc5c5c',GradientType=0 );
+
+    // new gradient
+    background: -moz-linear-gradient(top, #bc5c5c 0%, #d35f5f 100%);
+    background: -webkit-linear-gradient(top, #bc5c5c 0%,#d35f5f 100%);
+    background: linear-gradient(to bottom, #bc5c5c 0%,#d35f5f 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#bc5c5c', endColorstr='#d35f5f',GradientType=0);
+    
+
+    // old gradient
+    //background: -moz-linear-gradient(top, #d35f5f 0%, #bc5c5c 100%);
+    //background: -webkit-linear-gradient(top, #d35f5f 0%,#bc5c5c 100%);
+    //background: linear-gradient(to bottom, #d35f5f 0%,#bc5c5c 100%);
+    //filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#d35f5f', endColorstr='#bc5c5c',GradientType=0);
     display: grid;
     align-items: center;
     justify-items: center;
@@ -112,7 +123,13 @@ header {
 }
 
 .mail {
-    background: #bc5c5c;
+    // see: https://kb.tocsin.de/project/6/task/453
+
+    // old gradient end
+    //background: #bc5c5c;
+
+    // new gradient end
+    background: #d35f5f;
     display: grid;
     align-items: center;
     justify-items: center;
