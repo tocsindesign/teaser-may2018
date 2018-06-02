@@ -5,25 +5,26 @@
     src:
       url("../fonts/#{$font}/#{$font}-#{$variant}.eot?##{$font}") format("embedded-opentype"),
       url("../fonts/#{$font}/#{$font}-#{$variant}.woff") format("woff"),
+      url("../fonts/#{$font}/#{$font}-#{$variant}.woff2") format("woff2"),
       url("../fonts/#{$font}/#{$font}-#{$variant}.ttf") format("truetype");
     font-weight: $weight;
     font-style: $style;
 }
 
 @font-face {
-    @include font(Aleo, Regular, normal, normal);
+    @include font(aleo, regular, normal, normal);
 }
 
 @font-face {
-    @include font(Aleo, RegularItalic, normal, italic);
+    @include font(aleo, regularitalic, normal, italic);
 }
 
 @font-face {
-    @include font(Aleo, Bold, bold, normal);
+    @include font(aleo, bold, bold, normal);
 }
 
 @font-face {
-    @include font(Aleo, BoldItalic, bold, italic);
+    @include font(aleo, bolditalic, bold, italic);
 }
 
 $font-size: 4vw;
@@ -33,7 +34,7 @@ body {
     padding: 0;
     margin: 0;
     background: #4d4d4d;
-    font-family: "Aleo";
+    font-family: "aleo";
     //font-size: $font-size;
 }
 

@@ -1,0 +1,55 @@
+==================================================================
+https://keybase.io/stephanfischer
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://tocsin.de
+  * I am stephanfischer (https://keybase.io/stephanfischer) on keybase.
+  * I have a public key ASAhi5-jD94s4GYMKCubnMyMn2iQGqr-pnF_n8K4dHi-zwo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0120218b9fa30fde2ce0660c282b9b9ccc8c9f68901aaafea6717f9fc2b87478becf0a",
+            "host": "keybase.io",
+            "kid": "0120218b9fa30fde2ce0660c282b9b9ccc8c9f68901aaafea6717f9fc2b87478becf0a",
+            "uid": "e9f73f4266542a9467beb21f5c9b4219",
+            "username": "stephanfischer"
+        },
+        "service": {
+            "hostname": "tocsin.de",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.18"
+    },
+    "ctime": 1485175509,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1485175157,
+        "hash": "3b06a1420c24aa51f8adaed933950180557ac1212cf1eae0575e775ad3df0c770bc51fd98413dafff0842f8376f0f336f05ac139232093d37bd5724a82cc7378",
+        "seqno": 812605
+    },
+    "prev": "799bad8d3de164f27fb719e208f2b83e55ed4428829ba341a45f88c775ce2370",
+    "seqno": 20,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgIYufow/eLOBmDCgrm5zMjJ9okBqq/qZxf5/CuHR4vs8Kp3BheWxvYWTFAvh7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwMjE4YjlmYTMwZmRlMmNlMDY2MGMyODJiOWI5Y2NjOGM5ZjY4OTAxYWFhZmVhNjcxN2Y5ZmMyYjg3NDc4YmVjZjBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwMjE4YjlmYTMwZmRlMmNlMDY2MGMyODJiOWI5Y2NjOGM5ZjY4OTAxYWFhZmVhNjcxN2Y5ZmMyYjg3NDc4YmVjZjBhIiwidWlkIjoiZTlmNzNmNDI2NjU0MmE5NDY3YmViMjFmNWM5YjQyMTkiLCJ1c2VybmFtZSI6InN0ZXBoYW5maXNjaGVyIn0sInNlcnZpY2UiOnsiaG9zdG5hbWUiOiJ0b2NzaW4uZGUiLCJwcm90b2NvbCI6Imh0dHBzOiJ9LCJ0eXBlIjoid2ViX3NlcnZpY2VfYmluZGluZyIsInZlcnNpb24iOjF9LCJjbGllbnQiOnsibmFtZSI6ImtleWJhc2UuaW8gZ28gY2xpZW50IiwidmVyc2lvbiI6IjEuMC4xOCJ9LCJjdGltZSI6MTQ4NTE3NTUwOSwiZXhwaXJlX2luIjo1MDQ1NzYwMDAsIm1lcmtsZV9yb290Ijp7ImN0aW1lIjoxNDg1MTc1MTU3LCJoYXNoIjoiM2IwNmExNDIwYzI0YWE1MWY4YWRhZWQ5MzM5NTAxODA1NTdhYzEyMTJjZjFlYWUwNTc1ZTc3NWFkM2RmMGM3NzBiYzUxZmQ5ODQxM2RhZmZmMDg0MmY4Mzc2ZjBmMzM2ZjA1YWMxMzkyMzIwOTNkMzdiZDU3MjRhODJjYzczNzgiLCJzZXFubyI6ODEyNjA1fSwicHJldiI6Ijc5OWJhZDhkM2RlMTY0ZjI3ZmI3MTllMjA4ZjJiODNlNTVlZDQ0Mjg4MjliYTM0MWE0NWY4OGM3NzVjZTIzNzAiLCJzZXFubyI6MjAsInRhZyI6InNpZ25hdHVyZSJ9o3NpZ8RAdTb/r+t2tt2No1w0up0QWnNwGisf+lyogDO3Do1UMdIjKP6CKAYu0aGNFTjA0Wv1nWXQPswethpcadAefOq3D6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEID7KhXhNbfRxbk4Gs+cJk1OGiOSUFRLvQy7pgCbiq8BQo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/stephanfischer
+
+==================================================================
+
