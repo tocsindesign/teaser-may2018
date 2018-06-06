@@ -81,7 +81,8 @@ header a.info {
 }
 
 header span {
-  place-self: center;
+  align-self: center;
+  justify-self: center;
   grid-column-start: 1;
   grid-column-end: 3;
   text-align: center;
@@ -97,7 +98,7 @@ header span {
   background: -moz-linear-gradient(top, #bc5c5c 0%, #d35f5f 100%);
   background: -webkit-linear-gradient(top, #bc5c5c 0%, #d35f5f 100%);
   background: linear-gradient(to bottom, #bc5c5c 0%, #d35f5f 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#bc5c5c', endColorstr='#d35f5f',GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#bc5c5c', endColorstr='#d35f5f', GradientType=0);
   display: grid;
   align-items: center;
   justify-items: center;
@@ -123,6 +124,8 @@ header span {
   font-size: 8vw;
   font-weight: bold;
   font-style: italic;
+  margin-top: 2vw;
+  margin-bottom: 2vw;
 }
 
 .mail .pgp {
@@ -146,8 +149,9 @@ footer a {
   text-decoration: none;
 }
 
-footer .dsgvo {
-  place-self: center;
+footer .dsgvo, footer .status {
+  align-self: center;
+  justify-self: center;
   grid-column-start: 1;
   grid-column-end: 3;
 }
@@ -194,10 +198,11 @@ footer .dsgvo {
     margin: 0;
     border: 0;
     background: #666;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto auto auto;
   }
-  footer .dsgvo {
-    place-self: unset;
+  footer .dsgvo, footer .status {
+    align-self: unset;
+    justify-self: unset;
     grid-column-start: auto;
     grid-column-end: auto;
   }
@@ -205,7 +210,8 @@ footer .dsgvo {
     grid-template-columns: auto auto;
     grid-template-rows: 100%;
     border: 2px solid #fff;
-    place-items: stretch;
+    align-items: stretch;
+    justify-items: stretch;
     padding: 3px;
     margin: 0vw 10vw 0vw 10vw;
   }
@@ -222,6 +228,7 @@ footer .dsgvo {
   .mail span {
     color: #000;
     font-size: 3vw;
+    margin: 0;
   }
   .mail .pgp {
     color: #808080;

@@ -80,8 +80,8 @@ header {
     }
 
     span {
-        // TODO: place-self is a non-standard attribute
-        place-self: center;
+        align-self: center;
+        justify-self: center;
         grid-column-start: 1;
         grid-column-end: 3;
         text-align: center;
@@ -103,7 +103,7 @@ header {
     background: -moz-linear-gradient(top, #bc5c5c 0%, #d35f5f 100%);
     background: -webkit-linear-gradient(top, #bc5c5c 0%,#d35f5f 100%);
     background: linear-gradient(to bottom, #bc5c5c 0%,#d35f5f 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#bc5c5c', endColorstr='#d35f5f',GradientType=0);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#bc5c5c', endColorstr='#d35f5f', GradientType=0);
     
 
     // old gradient
@@ -141,6 +141,8 @@ header {
         font-size: 8vw;
         font-weight: bold;
         font-style: italic;
+        margin-top: 2vw;
+        margin-bottom: 2vw;
     }
 
     .pgp {
@@ -166,9 +168,9 @@ footer {
         text-decoration: none;
     }
 
-    .dsgvo {
-        // TODO: place-self is a non-standard attribute
-        place-self: center;
+    .dsgvo, .status {
+        align-self: center;
+        justify-self: center;
         grid-column-start: 1;
         grid-column-end: 3;
     }
@@ -254,11 +256,11 @@ footer {
         margin: 0;
         border: 0;
         background: #666;
-        grid-template-columns: auto auto auto;
+        grid-template-columns: auto auto auto auto;
 
-        .dsgvo {
-            // TODO: place-self is a non-standard attribute
-            place-self: unset;
+        .dsgvo, .status {
+            align-self: unset;
+            justify-self: unset;
             grid-column-start: auto;
             grid-column-end: auto;
         }
@@ -268,7 +270,8 @@ footer {
         grid-template-columns: auto auto;
         grid-template-rows: 100%;
         border: 2px solid #fff;
-        place-items: stretch;
+        align-items: stretch;
+        justify-items: stretch;
         padding: 3px;
         margin: 0vw 10vw 0vw 10vw;
     }
@@ -287,6 +290,7 @@ footer {
         span {
             color: #000;
             font-size: 3vw;
+            margin: 0;
         }
 
         .pgp {
